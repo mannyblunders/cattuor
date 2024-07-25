@@ -10,7 +10,7 @@ public class NewBehaviourScript : MonoBehaviour
     }
     void Start()
     {
-        
+        // Add attack later
     }
 
     // Update is called once per frame
