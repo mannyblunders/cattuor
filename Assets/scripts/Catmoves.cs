@@ -50,5 +50,14 @@ public class Catmoves : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+
+        if (collision.gameObject.CompareTag("Collect"))
+        {
+            itemkey itemkey = collision.gameObject.GetComponent<itemkey>();
+            if (itemkey != null) 
+            {
+                 itemkey.collect();
+            }
+        }
     }
 }
