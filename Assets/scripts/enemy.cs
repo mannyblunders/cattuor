@@ -4,9 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class NewBehaviourScript : MonoBehaviour
 {
+    public void ReloadCurrentScene()
+    {
+        
+        Scene currentScene = SceneManager.GetActiveScene();
+        
+        SceneManager.LoadScene(currentScene.name);
+    }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("SampleScene");
+        ReloadCurrentScene();
     }
     void Start()
     {
