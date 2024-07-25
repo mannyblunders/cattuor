@@ -8,14 +8,20 @@ public class enigme1 : MonoBehaviour
 {
     [SerializeField] private float Speed;
     [SerializeField] itemkey itemkey; //je peux en mettre plus, plus tard
+    [SerializeField] private DoorControl doorControl; // Reference to the door control script
 
-    private bool GettingAway = false;
+    public bool GettingAway = false;
 
     private void Update()
     {
         if (GettingAway)
         {
             gameObject.transform.position = new Vector3(gameObject.transform.position.x + Speed, gameObject.transform.position.y, gameObject.transform.position.z);
+            if (doorControl != null)
+            {
+                doorControl.OpenDoor();
+                doorControl = null; // Ensure the door only opens once
+            }
         }
         
     }
