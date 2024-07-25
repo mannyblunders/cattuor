@@ -11,6 +11,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         // Add attack later
+        //fgklzxj;gas
     }
 
     // Update is called once per frame
