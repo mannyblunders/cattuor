@@ -6,6 +6,7 @@ TagManager:
   tags:
   - camera
   - Collect
+  - Cat
   layers:
   - Default
   - TransparentFX
