@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
-public class Catmoves : MonoBehaviour
+public class Catmoves : AudioS
 {
     public float speed = 1f;
     public float jumpForce = 5f;
@@ -35,6 +35,8 @@ public class Catmoves : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && MathF.Abs(rb.velocity.y) < 0.05f)
         {
             rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+            PlaySound(sounds[0]);
+            Debug.Log("123");
         }
 
         sr.flipX = movement1 < 0 ? true : false;
