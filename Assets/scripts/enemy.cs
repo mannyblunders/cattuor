@@ -4,27 +4,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class NewBehaviourScript : MonoBehaviour
 {
-    public void ReloadCurrentScene()
+    //public void ReloadCurrentScene()
+    //{
+
+    //    Scene currentScene = SceneManager.GetActiveScene();
+
+    //    SceneManager.LoadScene(currentScene.name);
+    //}
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
-        Scene currentScene = SceneManager.GetActiveScene();
-        
-        SceneManager.LoadScene(currentScene.name);
-    }
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player")) 
-            {
-            ReloadCurrentScene();
-            }
-        
-    }
-    //dZVS
-    void Start()
-    {
-    }
-    void Update()
-    {
-        
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<Health>().TakeDamage(1);
+        }
     }
 }

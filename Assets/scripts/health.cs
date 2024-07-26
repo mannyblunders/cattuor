@@ -30,6 +30,7 @@ public class Health : MonoBehaviour
                 anim.SetTrigger("die");
                 //GetComponent<PlayerMovement>().enabled = false;
                 dead = true;
+                // ecran gameover !!!
             }
         }
     }
