@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class NewBehaviourScript : MonoBehaviour
+public class NewBehaviourScript : AudioS
 {
     //public void ReloadCurrentScene()
     //{
@@ -16,6 +16,7 @@ public class NewBehaviourScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<Health>().TakeDamage(1);
+            PlaySound(sounds[0]);
         }
     }
 }
