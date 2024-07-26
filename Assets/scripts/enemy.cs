@@ -6,7 +6,7 @@ public class NewBehaviourScript : MonoBehaviour
 {
     public void ReloadCurrentScene()
     {
-        
+        // ???????? ??????? ?????
         Scene currentScene = SceneManager.GetActiveScene();
         
         SceneManager.LoadScene(currentScene.name);
@@ -15,6 +15,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         ReloadCurrentScene();
     }
+    //dZVS
     void Start()
     {
         // Add attack later
