@@ -46,7 +46,7 @@ public class Catmoves : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("camera")) 
+        if (collision.gameObject.CompareTag("camera"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
@@ -54,9 +54,9 @@ public class Catmoves : MonoBehaviour
         if (collision.gameObject.CompareTag("Collect"))
         {
             itemkey itemkey = collision.gameObject.GetComponent<itemkey>();
-            if (itemkey != null) 
+            if (itemkey != null)
             {
-                 itemkey.collect();
+                itemkey.collect();
             }
         }
     }
