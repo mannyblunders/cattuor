@@ -9,6 +9,7 @@ public class enigme1 : MonoBehaviour
     [SerializeField] private float Speed;
     [SerializeField] itemkey itemkey; //je peux en mettre plus, plus tard
     [SerializeField] private DoorControl doorControl; // Reference to the door control script
+    [SerializeField] private Portaltolevel2 portaltolevel2; // ?????
 
     public bool GettingAway = false;
 
@@ -17,7 +18,7 @@ public class enigme1 : MonoBehaviour
         if (GettingAway)
         {
             gameObject.transform.position = new Vector3(gameObject.transform.position.x + Speed, gameObject.transform.position.y, gameObject.transform.position.z);
-            if (doorControl != null)
+            if (doorControl != null)//?????????
             {
                 doorControl.OpenDoor();
                 doorControl = null; // Ensure the door only opens once
@@ -31,6 +32,7 @@ public class enigme1 : MonoBehaviour
         if ((collision.gameObject.tag == "Player") && itemkey.istaken)
         {
             GettingAway = true;
+            portaltolevel2.Gettingaway = true;
         }
     }
 }
