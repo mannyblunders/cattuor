@@ -666,7 +666,39 @@ PrefabInstance:
     - target: {fileID: 4382499465317509490, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -6729207310203565534, guid: e291c882fec0fa648b4c622b012569bd, type: 3}
+      objectReference: {fileID: 8521531, guid: 62316ce9be1cb9b449c51af57e473d7d, type: 3}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0084324
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8158169
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.1449663
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.01326853
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.68
+      objectReference: {fileID: 0}
     - target: {fileID: 5157559124327758408, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
       propertyPath: itemkey
       value: 
@@ -685,11 +717,11 @@ PrefabInstance:
       objectReference: {fileID: 1519929465}
     - target: {fileID: 7192570675706300059, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.21
+      value: -3.96
       objectReference: {fileID: 0}
     - target: {fileID: 7192570675706300059, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.59
+      value: 0.94
       objectReference: {fileID: 0}
     - target: {fileID: 7192570675706300059, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
       propertyPath: m_LocalPosition.z
@@ -883,12 +915,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4124879874209738568, guid: 4b7e8525ffd7e674bb7545984f3fa1c3, type: 3}
   m_PrefabInstance: {fileID: 479220505}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 479220507}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2cc21803f26544146b4e47a8a6ea3467, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &479220507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3064090079008767366, guid: 4b7e8525ffd7e674bb7545984f3fa1c3, type: 3}
+  m_PrefabInstance: {fileID: 479220505}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -7092,6 +7129,14 @@ PrefabInstance:
       propertyPath: dialogue.sentences.Array.data[1]
       value: "Hey, erm, in case you see a dog, don't try to fight against them hehe
         ^^\". \nI just need some rest before we go.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627727385684314172, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 479220507}
+    - target: {fileID: 7627727385684314172, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7940498042601935971, guid: 16da32c8877afc446a125a7555c85669, type: 3}
       propertyPath: m_Pivot.x
