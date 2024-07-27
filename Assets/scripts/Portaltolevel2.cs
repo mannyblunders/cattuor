@@ -13,7 +13,15 @@ public class Portaltolevel2 : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player" && GiveItemBack)
         {
-            SceneManager.LoadScene("Scene3 Final");
+            int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+            if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+            {
+                SceneManager.LoadScene(nextSceneIndex);
+            }
+            else
+            {
+                Debug.Log("No more scenes to load!");
+            }
         }
         
     }
