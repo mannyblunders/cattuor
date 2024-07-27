@@ -604,11 +604,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5857768646947477939, guid: 16da32c8877afc446a125a7555c85669, type: 3}
       propertyPath: dialogue.name
-      value: 'Go to the exit '
+      value: 1312
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857768646947477939, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5857768646947477939, guid: 16da32c8877afc446a125a7555c85669, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Thank you ! Let's go!
+      value: '1312 : Someone in there? Hiya, mate. I just saw the cops leaving the
+        area. They''re lucky I was on my own. You alright?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857768646947477939, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: 'Cat : Meow'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857768646947477939, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: '1312 : What??? Your human companion? Gone? :0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857768646947477939, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 'Cat : Meow'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857768646947477939, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: '1312 : That''s awful! I''m sure these cops took
+
+        her to their
+        Head Quarter, they''redisgusting! >0<'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857768646947477939, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: '1312 : I WILL DESTROY THEM ALL. NONE OF THEM'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857768646947477939, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: '1312 : WILL SURVIVE MY ANGER. THEY''LL SEE WHAT I''M CAPABLE OF.
+
+        REVOLUTIOOONQ8f^R#2Z*b1312M$w!q@%&7L9<+D=?AX1gT>J...'
       objectReference: {fileID: 0}
     - target: {fileID: 7940498042601935971, guid: 16da32c8877afc446a125a7555c85669, type: 3}
       propertyPath: m_Pivot.x
