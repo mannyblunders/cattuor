@@ -11,7 +11,7 @@ public class Portaltolevel2 : MonoBehaviour
     {
         if (Gettingaway == true)
         {
-            SceneManager.LoadScene("Scene2");
+            SceneManager.LoadScene("Scene3 Final");
         }
         
     }
