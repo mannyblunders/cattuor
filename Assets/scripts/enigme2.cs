@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class enigme2 : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class enigme2 : MonoBehaviour
     [SerializeField] private DialogueTrigger dialogueTrigger; // Reference to the dialogue trigger script
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         if ((collision.gameObject.tag == "Player") && itemkey.istaken)
         {
@@ -21,10 +22,12 @@ public class enigme2 : MonoBehaviour
         }
     }
 
-    private void GiveItemBack()
+    public void GiveItemBack()
     {
         itemkey.istaken = false; // Mark the item as not taken
         dialogueTrigger.TriggerDialogue(); // Trigger the dialogue
         doorControl.OpenDoor(); // Optionally open the door
+        portaltolevel2.GiveItemBack =true; // Activate the portal 
+
     }
 }
