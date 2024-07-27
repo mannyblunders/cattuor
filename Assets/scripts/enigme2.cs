@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
-public class enigme2 : MonoBehaviour
+public class enigme2 : AudioS
 {
     [SerializeField] itemkey itemkey; //je peux en mettre plus, plus tard
     [SerializeField] private DoorControl doorControl; // Reference to the door control script
@@ -28,6 +28,7 @@ public class enigme2 : MonoBehaviour
         dialogueTrigger.TriggerDialogue(); // Trigger the dialogue
         doorControl.OpenDoor(); // Optionally open the door
         portaltolevel2.GiveItemBack =true; // Activate the portal 
+        PlaySound(sounds[0]);
 
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class DoorControl : MonoBehaviour
+public class DoorControl : AudioS
 {
     private Animator animator;
 
@@ -15,6 +15,7 @@ public class DoorControl : MonoBehaviour
     public void OpenDoor()
     {
         animator.SetTrigger("Open");
+        PlaySound(sounds[0]);
     }
 }
    
