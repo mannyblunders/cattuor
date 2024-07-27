@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 9d5f486ac72d18b418262ad9d4550169
   - enabled: 1
+    path: Assets/Scenes/Scene2 marcia.unity
+    guid: ccae3b75a39a9e94884cd0233f9326a7
+  - enabled: 1
     path: Assets/Scenes/Scene1 sophie.unity
     guid: fd7d8e429c04595448cd1ea49e9dd8c2
   - enabled: 1
@@ -26,10 +29,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Scene1 marcia.unity
     guid: 7628e19304c284f4584f95386b7e61ad
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene2.unity
     guid: ce81dfa7236fe4649b135074394ce295
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
