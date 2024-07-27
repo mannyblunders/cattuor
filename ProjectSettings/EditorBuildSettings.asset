@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 3 Sophie.unity
     guid: 143fe02cc4a39ac40af7da25234278cc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene1 marcia.unity
     guid: 7628e19304c284f4584f95386b7e61ad
   - enabled: 1

@@ -11,7 +11,7 @@ public class Menu : MonoBehaviour
     public Button exit;
     public void StartGame()
     {
-        SceneManager.LoadScene("Scene1");
+        SceneManager.LoadScene("Scene1 sophie");
     }
     
     public void OnExitButtonClick()

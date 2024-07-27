@@ -247,8 +247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d0cd36d9d639db42b755c2b64729ce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  play: {fileID: 0}
-  exit: {fileID: 0}
+  play: {fileID: 360739925}
+  exit: {fileID: 1736367880}
 --- !u!114 &358411226
 MonoBehaviour:
   m_ObjectHideFlags: 0
