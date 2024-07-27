@@ -5270,6 +5270,46 @@ PrefabInstance:
       propertyPath: dialogButton
       value: 
       objectReference: {fileID: 218878017}
+    - target: {fileID: 2206421780057863262, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ec14af6d4fd5e5840962e29080e483a1, type: 2}
+    - target: {fileID: 4382499465317509490, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 733240327, guid: 3b5c5fc9043ad0845bfd42dbee0111c9, type: 3}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7488742
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_Size.y
+      value: 1.1167347
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.17858607
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.050228953
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876361651604609730, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.39
+      objectReference: {fileID: 0}
     - target: {fileID: 5157559124327758408, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
       propertyPath: itemkey
       value: 
@@ -5296,11 +5336,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 276fa34ba45511540b129a97318faed7, type: 3}
     - target: {fileID: 7192570675706300059, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.88
+      value: -6.13
       objectReference: {fileID: 0}
     - target: {fileID: 7192570675706300059, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.68
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 7192570675706300059, guid: 69eac4eabb6985a4a82e41361dae5881, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5423,6 +5463,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 404401485420285639, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: dialogue.name
+      value: Go to the next door
+      objectReference: {fileID: 0}
     - target: {fileID: 7627727385684314172, guid: 16da32c8877afc446a125a7555c85669, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
