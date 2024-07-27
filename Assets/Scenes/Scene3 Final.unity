@@ -5343,6 +5343,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 404401485420285639, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: dialogue.name
+      value: Go to the next door
+      objectReference: {fileID: 0}
     - target: {fileID: 7627727385684314172, guid: 16da32c8877afc446a125a7555c85669, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
