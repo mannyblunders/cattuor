@@ -11,14 +11,15 @@ public class Menu : MonoBehaviour
     public Button exit;
     public void StartGame()
     {
-        SceneManager.LoadScene("Scene1 sophie");
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        SceneManager.LoadScene(nextSceneIndex);
     }
     
     public void OnExitButtonClick()
     {
         if (Application.isEditor)
         {
-            UnityEditor.EditorApplication.isPlaying = false;
+            //UnityEditor.EditorApplication.isPlaying = false;
         }
         else
         {

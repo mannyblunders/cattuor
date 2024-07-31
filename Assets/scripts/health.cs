@@ -37,9 +37,17 @@ public class Health : MonoBehaviour
         }
     }
 
-    private void ShowGameOverScreen()
+    public void ShowGameOverScreen()
     {
-        gameOverScreen.SetActive(true); // Show the game over screen
+        if (gameOverScreen != null)
+        {
+            gameOverScreen.SetActive(true); // Show the game over screen
+        }
+        else
+        {
+            Debug.LogError("GameOverScreen GameObject is not assigned!");
+        }
+
         Time.timeScale = 0f; // Pause the game
     }
 
