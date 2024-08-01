@@ -4469,12 +4469,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7023741999835628424, guid: d790da3c1ffe5414f94a5de6043b633e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2887
+      objectReference: {fileID: 0}
+    - target: {fileID: 7023741999835628424, guid: d790da3c1ffe5414f94a5de6043b633e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2887
+      objectReference: {fileID: 0}
+    - target: {fileID: 7023741999835628424, guid: d790da3c1ffe5414f94a5de6043b633e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2887
+      objectReference: {fileID: 0}
+    - target: {fileID: 7023741999835628424, guid: d790da3c1ffe5414f94a5de6043b633e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.55
+      value: 13.46
       objectReference: {fileID: 0}
     - target: {fileID: 7023741999835628424, guid: d790da3c1ffe5414f94a5de6043b633e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.61
+      value: -1.12
       objectReference: {fileID: 0}
     - target: {fileID: 7023741999835628424, guid: d790da3c1ffe5414f94a5de6043b633e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4508,6 +4520,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7376694308580945572, guid: d790da3c1ffe5414f94a5de6043b633e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6372063690684418067, guid: 67798623c65886240b2e6cfdf51206bd, type: 3}
     - target: {fileID: 8945996132623173860, guid: d790da3c1ffe5414f94a5de6043b633e, type: 3}
       propertyPath: m_Name
       value: Triangle
@@ -5419,14 +5435,26 @@ PrefabInstance:
       propertyPath: dialogue.name
       value: Go to the next door
       objectReference: {fileID: 0}
+    - target: {fileID: 404401485420285639, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: You got my arm back! Did you kill that dog? You badass hehe.
+      objectReference: {fileID: 0}
     - target: {fileID: 3945744296977303916, guid: 16da32c8877afc446a125a7555c85669, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857768646947477939, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: dialogue.name
+      value: Find 1312's arm !
       objectReference: {fileID: 0}
     - target: {fileID: 7627727385684314172, guid: 16da32c8877afc446a125a7555c85669, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1133732076}
+    - target: {fileID: 7838232786926094959, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: m_margin.z
+      value: -378.61356
+      objectReference: {fileID: 0}
     - target: {fileID: 7940498042601935971, guid: 16da32c8877afc446a125a7555c85669, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -5510,6 +5538,10 @@ PrefabInstance:
     - target: {fileID: 7943520344461859586, guid: 16da32c8877afc446a125a7555c85669, type: 3}
       propertyPath: m_Name
       value: Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8653768276858121530, guid: 16da32c8877afc446a125a7555c85669, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -442
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
